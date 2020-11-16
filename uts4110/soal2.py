@@ -4,7 +4,7 @@ if kode == "A":
     merk_baju = "Dancow"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
-        harga = 33000
+        harga = 30000
     elif ukuran == "500":
         harga = 55000
     else:
