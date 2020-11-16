@@ -1,9 +1,9 @@
-bil = int(input("Inputkan bilangan :"))
-for x in range(bil):
-    x = x + 1
-    res = x**2
-    if x == 1:
-        print(x, "=", res)
+n = int(input("Inputkan bilangan :"))
+for i in range(n):
+    i += 1
+    res = i**2
+    if i == 1:
+        print(i, "=", res)
         continue
-    yyy = (" + "+str(x))*(x-1)
-    print(str(x)+yyy, "=", res)
+    kata = (" + "+str(i))*(i-1)
+    print(str(i)+kata, "=", res)

@@ -1,7 +1,7 @@
 
 kode = input("Masukkan kode baju :")
 if kode == "A":
-    merk_baju = "Dancow"
+    merk_susu = "Dancow"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
         harga = 30000
@@ -16,12 +16,12 @@ if kode == "A":
         diskon = (harga * jumlah) * 0.10
 
     tagihan = (harga * jumlah) - diskon
-    print("Merk", merk_baju)
+    print("Merk", merk_susu)
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
 
 elif kode == "B":
-    merk_baju = "Morinaga"
+    merk_susu = "Morinaga"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
         harga = 850000
@@ -36,12 +36,12 @@ elif kode == "B":
         diskon = (harga * jumlah) * 0.20
 
     tagihan = (harga * jumlah) - diskon
-    print("Merk", merk_baju)
+    print("Merk", merk_susu)
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
 
 elif kode == "C":
-    merk_baju = "Bebelac"
+    merk_susu = "Bebelac"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
         harga = 110000
@@ -56,12 +56,12 @@ elif kode == "C":
         diskon = (harga * jumlah) * 0.25
 
     tagihan = (harga * jumlah) - diskon
-    print("Merk", merk_baju)
+    print("Merk", merk_susu)
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
 
 elif kode == "D":
-    merk_baju = "SGM"
+    merk_susu = "SGM"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
         harga = 25000
@@ -76,11 +76,11 @@ elif kode == "D":
         diskon = (harga * jumlah) * 0.10
 
     tagihan = (harga * jumlah) - diskon
-    print("Merk", merk_baju)
+    print("Merk", merk_susu)
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
 elif kode == "E":
-    merk_baju = "Lactogrow"
+    merk_susu = "Lactogrow"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
         harga = 950000
@@ -95,7 +95,7 @@ elif kode == "E":
         diskon = (harga * jumlah) * 0.25
 
     tagihan = (harga * jumlah) - diskon
-    print("Merk", merk_baju)
+    print("Merk", merk_susu)
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
 
