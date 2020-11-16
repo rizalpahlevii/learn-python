@@ -1,6 +1,6 @@
 
 kode = int(input("Masukkan kode baju :"))
-if kode == 1:
+if kode == "A":
     merk_baju = "Dancow"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
@@ -20,7 +20,7 @@ if kode == 1:
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
 
-elif kode == 2:
+elif kode == "B":
     merk_baju = "Morinaga"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
@@ -40,7 +40,7 @@ elif kode == 2:
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
 
-elif kode == 3:
+elif kode == "C":
     merk_baju = "Bebelac"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
@@ -60,7 +60,7 @@ elif kode == 3:
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
 
-elif kode == 4:
+elif kode == "D":
     merk_baju = "SGM"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
@@ -79,7 +79,7 @@ elif kode == 4:
     print("Merk", merk_baju)
     print("Ukuran", ukuran)
     print("Tagihan", tagihan)
-elif kode == 5:
+elif kode == "E":
     merk_baju = "Lactogrow"
     ukuran = input("Input Ukuran : ")
     if ukuran == "250":
