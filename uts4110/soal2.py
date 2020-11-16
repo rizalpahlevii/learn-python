@@ -1,5 +1,5 @@
 
-kode = int(input("Masukkan kode baju :"))
+kode = input("Masukkan kode baju :")
 if kode == "A":
     merk_baju = "Dancow"
     ukuran = input("Input Ukuran : ")
