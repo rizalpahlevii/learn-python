@@ -1,7 +1,9 @@
-jumlah = 0
-batas = int(input("Masukkan batas : "))
-i = 1
-while i <= batas:
-    print(i, "+", i, "=", i+i)
-    jumlah += i
-    i += 1
+bil = int(input("Inputkan bilangan :"))
+for x in range(bil):
+    x = x + 1
+    res = x**2
+    if x == 1:
+        print(x, "=", res)
+        continue
+    yyy = (" + "+str(x))*(x-1)
+    print(str(x)+yyy, "=", res)
