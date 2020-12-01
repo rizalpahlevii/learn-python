@@ -6,7 +6,7 @@ def CheckOnOff():
 
 
 def TurnOnOff():
-    if(CheckOnOff()):
+    if CheckOnOff():
         Globals.g_onoff = False
         print("Ac Berhasil Mati")
     else:
@@ -15,19 +15,19 @@ def TurnOnOff():
 
 
 def TempUp():
-    if(CheckOnOff()):
-        if(Globals.g_temp <= 28):
+    if CheckOnOff():
+        if Globals.g_temp < 28 and Globals.g_temp > 18:
             Globals.g_temp += 1
 
 
 def TempDown():
-    if(CheckOnOff()):
-        if(Globals.g_temp >= 18):
+    if CheckOnOff():
+        if Globals.g_temp < 28 and Globals.g_temp > 18:
             Globals.g_temp -= 1
 
 
 def FanSpeed():
-    if(CheckOnOff()):
+    if CheckOnOff():
         if (Globals.g_fanlevel < 4):
             Globals.g_fanlevel += 1
         else:
@@ -35,7 +35,7 @@ def FanSpeed():
 
 
 def PowerChill():
-    if(CheckOnOff()):
+    if CheckOnOff():
         Globals.g_fanlevel = 4
         Globals.g_temp = 18
 
