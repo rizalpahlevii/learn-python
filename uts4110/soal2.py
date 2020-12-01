@@ -1,5 +1,5 @@
 
-kode = input("Masukkan kode baju :")
+kode = input("Masukkan kode Susu :")
 if kode == "A":
     merk_susu = "Dancow"
     ukuran = input("Input Ukuran : ")
