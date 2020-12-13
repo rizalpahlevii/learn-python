@@ -20,3 +20,8 @@ def luasPersegi(sisi):
 
 def luasSegitiga(alas, tinggi):
     return 0.5 * alas * tinggi
+
+
+def luasLingkaran(jari_jari):
+    phi = 3.14
+    return phi * (jari_jari * jari_jari)
