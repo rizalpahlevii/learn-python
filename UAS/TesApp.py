@@ -3,7 +3,6 @@
 # 4110
 
 import MyLib
-import Globals as g
 
 
 def main():
