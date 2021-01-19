@@ -13,7 +13,6 @@ def main():
     if totalMataKuliah > 10:
         print('Tidak boleh melebihi 10')
         exit()
-    g.totalMataKuliah = totalMataKuliah
 
     mataKuliah = [str] * totalMataKuliah
     for i in range(totalMataKuliah):
